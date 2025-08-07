@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-df = pd.read_csv("C:\\PROJECT\\Environmental_Effects_2020_2030.csv")
+df = pd.read_csv("Environmental_Effects_2020_2030.csv")
 
 
 st.set_page_config(page_title=" Environmental Dashboard", layout="wide")
@@ -62,3 +62,4 @@ elif chart_type == "Pie Chart":
 
 with st.expander(" View Raw Data"):
     st.dataframe(filtered_df)
+
